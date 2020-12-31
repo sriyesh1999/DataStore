@@ -1,5 +1,5 @@
-FreshWorks Assignment
-DataStore-package
+# Freshworks Assignment
+## DataStore-package
 
 
 A file-based key-value data store that supports the basic CRD (create, read, and delete) operations. This data store is meant to be used as a local storage for one single process on one laptop. The data store must be exposed as a library to clients that can instantiate a class and work with the data store.
@@ -32,13 +32,24 @@ The client will bear as little memory costs as possible to use this data store, 
 
 The corner cases have been appropriately evaluated.
 
-All possible scenarios have been properly dealt with proper Exceptions
+All possible scenarios have been properly dealt with proper Exceptions.
 
 
-App.py:
+## App.py
 It is an interactive python program which uses the package DataStore.
 
-test_CRD.py:
+Run App.py:
+```sh
+python App.py
+```
+
+## test_CRD.py
 it uses unittest module to test out CRD functions of package .It runs 3 tests for create,read ,delete operations.
+
+Run test:
+```sh
+python test_CRD.py
+```
+
 
 
