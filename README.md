@@ -36,7 +36,7 @@ All possible scenarios have been properly dealt with proper Exceptions.
 
 
 ## App.py
-It is an interactive python program which uses the package DataStore.
+It is an interactive python program which uses the package DataStore.We can create,read,delete a JSON file using the package CRD.
 
 Run App.py:
 ```sh
